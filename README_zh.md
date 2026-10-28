@@ -1,3 +1,5 @@
+> 本仓库是百度翻译二开版。安装与配置请先看 [本分支首页](README.md)；以下保留上游中文介绍。
+
 [README](README.md) | [中文文档](README_zh.md)
 <h1 align="center">
   <img align="top" width="44" src="https://raw.githubusercontent.com/linuxscreen/duo-translator/HEAD/public/DuoTranslator.svg" alt="DUO Logo">

@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.6-baidu.1] - 2026-10-28
+
+### Added
+
+- 百度通用文本翻译 API：自有 APPID/密钥、连接测试、QPS 排队限速和长文本拆分。
+- 网页行内标签保留及文本片段回退，划词、输入框、翻译工作台和字幕接入。
+- 百度密钥默认排除配置备份与同步；补充源码测试、设置截图和百度使用说明。
+
+### Fixed
+
+- 普通翻译工作台停止或提前结束迭代时，取消后台在途请求。
+
 ## [2.2.6] - 2026-10-02
 
 ### Added

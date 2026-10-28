@@ -48,3 +48,12 @@ demo
 .ai
 README_private.md
 .private
+
+# Personal translation credentials and local browser profiles
+*.local.json
+*本机配置*.json
+*private-config*.json
+*.pem
+*.key
+.secrets/
+browser-profile/

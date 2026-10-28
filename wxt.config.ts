@@ -25,7 +25,8 @@ const SAFARI_BACKGROUND_HTML = `<!doctype html>
 // See https://wxt.dev/api/config.html
 export default defineConfig({
     manifest: ({ browser, mode }) => ({
-        name: '__MSG_extName__',
+        name: '__MSG_extName__ · Baidu',
+        version_name: '2.2.6-baidu.1',
         description: '__MSG_extDescription__',
         default_locale: 'en',
         // 'identity' powers Google Drive sync (launchWebAuthFlow everywhere,
@@ -37,6 +38,7 @@ export default defineConfig({
             // 'https://translate-pa.googleapis.com/*',
             'https://api.cognitive.microsofttranslator.com/*',
             'https://translation.googleapis.com/*',
+            'https://fanyi-api.baidu.com/*',
             // 'https://api-free.deepl.com/*',
             //
             // Google Drive sync: the Drive REST API + the userinfo endpoint,
@@ -121,8 +123,8 @@ export default defineConfig({
                 // server, the e2e build (`--mode development`) and the Safari
                 // debug build all fall to the -dev ID.
                 id: mode === 'production'
-                    ? 'duo-translator@duotranslator.com'
-                    : 'duo-translator-dev@duotranslator.com',
+                    ? 'duo-translator-baidu@sspu-wyl.github.io'
+                    : 'duo-translator-baidu-dev@sspu-wyl.github.io',
                 data_collection_permissions: {
                     required: ['websiteContent'],
                 },
